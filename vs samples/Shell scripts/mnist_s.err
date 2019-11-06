@@ -1,0 +1,14 @@
+{Error using svd
+SVD did not converge.
+
+Error in my_dPCA_djica>my_local_pca (line 50)
+    [U, S, ~] = svd(A);
+
+Error in my_dPCA_djica (line 23)
+        [Pp, ~] = my_local_pca(X_sites{id}, kp, epsilon, delta);
+
+Error in mnist_try1 (line 74)
+        [U_dist_djica_ndp, U_loc_djica_ndp] = my_dPCA_djica (X_sites, K, R, 0,
+        0);
+} 
+

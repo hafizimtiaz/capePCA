@@ -1,0 +1,7 @@
+{Error using svd
+SVD did not converge.
+
+Error in synth_try1 (line 42)
+        [U, ~, ~] = svd(sample_cov);
+} 
+
