@@ -2,7 +2,7 @@ clear;clc;close all
 
 %% load data and set parameters
 
-load('/Users/hafizimtiaz/OneDrive/Backup from Dropbox/Rutgers Research/Implementation of dPCA/New Simulations October 2017/Database/synth_d_200_n_60000.mat')
+load('../datasets/synth_d_200_n_60000.mat')
 % load('synth_d_1000_n_60000.mat')
 Xorg = X;
 N_all = [1 2 5 10 20 30 40 50 60] * 1000;

@@ -2,7 +2,7 @@ clear;clc;close all
 
 %% load data and set parameters
 
-load('/Users/hafizimtiaz/OneDrive/Backup from Dropbox/Rutgers Research/Implementation of dPCA/New Simulations October 2017/Database/covtype_d_54_n_60000.mat')
+load('../datasets/covtype_d_54_n_60000.mat')
 epsilon = 0.5;
 delta_all = [1e-4 5e-4 1e-3 5e-3 1e-2 5e-2];
 nensemble = 10;

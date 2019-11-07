@@ -2,7 +2,7 @@ clear;clc;close all
 
 %% load data and set parameters
 
-load('/Users/hafizimtiaz/OneDrive/Backup from Dropbox/Rutgers Research/Implementation of dPCA/New Simulations October 2017/Database/synth_d_200_n_60000.mat')
+load('../datasets/synth_d_200_n_60000.mat')
 epsilon_all = [1e-3 5e-3 1e-2 5e-2 1e-1 5e-1 1 5 10];
 delta = 0.01;
 nensemble = 10;
